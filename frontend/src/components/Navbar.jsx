@@ -11,9 +11,9 @@ export default function Navbar() {
           <a className="hover:text-blue-600"href="">Pricing</a>
           <a className="hover:text-blue-600"href="">Contact</a>
         </div>
-        <div className="flex gap-5">
+        <div className="flex gap-4">
             <button className="text-black hover:text-blue-600 font-semibold">Login</button>
-            <button className="text-white bg-blue-600 rounded-xl font-semibold w-{60} p-3 hover:text-blue-600 hover:border-1 hover:bg-white hover:border-blue-600">Sign Up</button>
+            <button className="text-white bg-blue-600 rounded-xl font-semibold w-{60} p-3 hover:text-blue-600  hover:bg-white hover:border-blue-600">Sign Up</button>
         </div>
       </nav>
     </>
