@@ -6,8 +6,7 @@ import LandingPage from "./pages/Public/Landing";
 const App = () => {
   return (
     <>
-    <LandingPage/>
-    <Signup/>
+    
     </>
 
   )
