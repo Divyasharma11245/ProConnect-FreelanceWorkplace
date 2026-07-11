@@ -2,11 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=montserrat&display=swap');
 
 @theme {
-  --font-sans: 'Parisienne', sans-serif;
+  --font-sans: 'Montserrat', sans-serif;
 }
 
 @layer base {
-  *, html, body {
+  html {
     font-family: var(--font-sans);
+    font-size: small;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
   }
 }
