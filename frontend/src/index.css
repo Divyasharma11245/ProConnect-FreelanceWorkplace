@@ -8,6 +8,9 @@
     font-family: var(--font-sans);
     font-size: medium;
   }
+  p{
+    font-size: smaller;
+  }
   body, html {
     margin: 0;
     padding: 0;
