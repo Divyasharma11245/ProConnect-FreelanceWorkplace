@@ -12,7 +12,8 @@ import signupImg from "../../assets/signupImg.jpeg"
 const Signup = () => {
   return (
     <>
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 mt-16 flex-wrap' style={{ backgroundColor: "rgba(239, 244, 255)" }}>
+    <Navbar/>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 flex-wrap' style={{ backgroundColor: "rgba(239, 244, 255)" }}>
         <div className='h-[90%]'><img className='w-full h-full object-cover' src={signupImg}></img>
         <p className="text-center text-gray-500">Already have an account<a className="text-blue-500 cursor-pointer">Log in</a></p></div>
         <div className='h-[90%] w-5/6 max-w-3xl mx-auto my-5 p-5 shadow-2xl rounded-md bg-white'>

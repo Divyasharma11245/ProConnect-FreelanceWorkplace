@@ -9,7 +9,7 @@ const userSchema = new mongoose.Schema(
       trim: true,
     },
     email: {
-      typr: String,
+      type: String,
       required: true,
       unique: true,
       lowercase: true,
@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
-      enum: ["cleint", "freelancer", "admin"],
+      enum: ["client", "freelancer", "admin"],
       required: true,
     },
     isVerified: {
@@ -45,5 +45,5 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-const User = mongoose.model("User",userSchema);
+const User = mongoose.model("User", userSchema);
 export default User;
